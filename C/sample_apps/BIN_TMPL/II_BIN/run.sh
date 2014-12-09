@@ -6,6 +6,8 @@ then
 	exit
 fi
 
+mkdir data
+
 echo "generating 28 MB data..."
 for ((i=0; i<1024; i++))
 do
