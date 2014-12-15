@@ -48,7 +48,9 @@ endif
 %.ph_clobber :
 	$(MAKE) -C $(dir $*) clobber $(USE_DEVICE)
 
-all:  $(addsuffix .ph_build,$(PROJECTS))
+#all:  $(addsuffix .ph_build,$(PROJECTS))
+#	@echo "Finished building all"
+all:  $(addsuffix .ph_build, src/volumeRender/Makefile)
 	@echo "Finished building all"
 
 lib/libcutil.so:
