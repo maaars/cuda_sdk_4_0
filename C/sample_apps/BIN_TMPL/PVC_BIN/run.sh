@@ -1,7 +1,7 @@
 #!/bin/sh 
 
 echo "generating data..."
-./Gen data 1000000 count
+./Gen data 500000 count
 
 ./PageViewCount data
 

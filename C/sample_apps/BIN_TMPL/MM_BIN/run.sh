@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./MatrixMul 1024 1024
+./MatrixMul 512 512

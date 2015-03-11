@@ -1,7 +1,7 @@
 #!/bin/sh 
 
 echo "generating data..."
-./Gen data 1000000 rank
+./Gen data 500000 rank
 
 ./PageViewRank data
 

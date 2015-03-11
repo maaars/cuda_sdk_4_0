@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./Kmeans 30000 3 24
+./Kmeans 10000 3 24
